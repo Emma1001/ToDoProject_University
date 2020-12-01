@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="500dp">
+
+    <TextView
+        android:id="@+id/titleTextViewMoreInfo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="88dp"
+        android:layout_marginLeft="88dp"
+        android:layout_marginTop="44dp"
+        android:text="Title"
+        android:textColor="@color/textButton"
+        app:layout_constraintStart_toEndOf="@+id/titleTextViewMoreInfo"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/dateTextViewMoreInfo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginLeft="84dp"
+        android:layout_marginTop="68dp"
+        android:text="Date:"
+        android:textColor="@color/textButton"
+        app:layout_constraintStart_toEndOf="@+id/dateTextViewMoreInfo"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionTextViewMoreInfo2" />
+
+    <TextView
+        android:id="@+id/descriptionTextViewMoreInfo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="44dp"
+        android:layout_marginLeft="44dp"
+        android:layout_marginTop="72dp"
+        android:text="Description:"
+        android:textColor="@color/textButton"
+        app:layout_constraintStart_toEndOf="@+id/descriptionTextViewMoreInfo"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextViewMoreInfo2" />
+
+    <TextView
+        android:id="@+id/isDoneTextViewMoreInfo2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginLeft="72dp"
+        android:layout_marginTop="64dp"
+        android:text="Done: "
+        android:textColor="@color/textButton"
+        app:layout_constraintStart_toEndOf="@+id/isDoneTextViewMoreInfo"
+        app:layout_constraintTop_toBottomOf="@+id/dateTextViewMoreInfo2" />
+
+    <TextView
+        android:id="@+id/titleTextViewMoreInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="40dp"
+        android:text="Title:"
+        android:textColor="@color/textButton"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/descriptionTextViewMoreInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="68dp"
+        android:text="Description:"
+        android:textColor="@color/textButton"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTextViewMoreInfo" />
+
+    <TextView
+        android:id="@+id/dateTextViewMoreInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="64dp"
+        android:text="Date:"
+        android:textColor="@color/textButton"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/descriptionTextViewMoreInfo" />
+
+    <TextView
+        android:id="@+id/isDoneTextViewMoreInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="58dp"
+        android:text="Done: "
+        android:textColor="@color/textButton"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dateTextViewMoreInfo" />
+</androidx.constraintlayout.widget.ConstraintLayout>
